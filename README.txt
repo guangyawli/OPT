@@ -12,6 +12,11 @@ cd OPT
 python bottle_server.py
 
 
+You should see the visualizer at: http://localhost:8003/visualize.html
+
+and the live programming environment at: http://localhost:8003/live.html
+
+
 ====================================================
 
 Online Python Tutor v5 "unity" -- the goal for this version is to
