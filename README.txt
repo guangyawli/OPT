@@ -1,3 +1,19 @@
+If you are looking for the original OnlinePythonTutor, please don't download this one.
+Because it has been modified for Guangyaw's project .
+
+The original code on github:
+https://github.com/pgbovine/OnlinePythonTutor
+
+====================================================
+Quick install:
+
+pip install bottle # make sure the bottle webserver (http://bottlepy.org/) is installed
+cd OPT
+python bottle_server.py
+
+
+====================================================
+
 Online Python Tutor v5 "unity" -- the goal for this version is to
 significantly clean up, modernize, and modularize the OPT codebase to
 ease future development.
