@@ -88,8 +88,8 @@ export class OptFrontend extends AbstractBaseFrontend {
       delete myArgs.mode;
       (myArgs as any).codeDivWidth = ExecutionVisualizer.DEFAULT_EMBEDDED_CODE_DIV_WIDTH;
       (myArgs as any).codeDivHeight = ExecutionVisualizer.DEFAULT_EMBEDDED_CODE_DIV_HEIGHT;
-
-      var domain = "http://pythontutor.com/"; // for deployment
+// guangyaw modify for iframe code domain error
+      var domain = "https://codetutor.openedu.tw/"; // for deployment
       var embedUrlStr = $.param.fragment(domain + "iframe-embed.html", myArgs, 2 /* clobber all */);
       embedUrlStr = sanitizeURL(embedUrlStr);
       var iframeStr = '<iframe width="800" height="500" frameborder="0" src="' + embedUrlStr + '"> </iframe>';
