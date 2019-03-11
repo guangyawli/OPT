@@ -24986,7 +24986,7 @@ var OptFrontend = /** @class */ (function (_super) {
             delete myArgs.mode;
             myArgs.codeDivWidth = pytutor_1.ExecutionVisualizer.DEFAULT_EMBEDDED_CODE_DIV_WIDTH;
             myArgs.codeDivHeight = pytutor_1.ExecutionVisualizer.DEFAULT_EMBEDDED_CODE_DIV_HEIGHT;
-            var domain = "http://codetutor.openedu.tw/"; // for deployment
+            var domain = "https://codetutor.openedu.tw/"; // for deployment
             var embedUrlStr = $.param.fragment(domain + "iframe-embed.html", myArgs, 2 /* clobber all */);
             embedUrlStr = sanitizeURL(embedUrlStr);
             var iframeStr = '<iframe width="800" height="500" frameborder="0" src="' + embedUrlStr + '"> </iframe>';
